@@ -1,0 +1,231 @@
+@{meta('Sushi Bratislava (node.js)', 'HTML 5 website example. Written in partial.js - web application framework for node.js.', 'node.js, partial.js, example, download, free')}
+@{currentImage('h2')}
+
+<div class="content">
+	<div class="content-padding" style="padding-bottom:0">
+		<h1>@{title}</h1>
+		<br />
+		<div class="about">
+			<p class="text"><strong>Sushi Bratislava homepage</strong>, this website is an example of partial.js web application framework for node.js. You can <a href="http://www.partialjs.com/upload/sushi.zip">download full example of this website (1.7 MB)</a>.<br /><br />Please <b>donate</b> partial.js or my work.</p>
+
+			<div style="position:absolute;margin:-37px 0 0 280px">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+					<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+
+			<div class="quote"><p>partial.js is the web application framework for node.js. It is very simple, effective and free.<br />I recommend this framework for your work. <b>Peter Širka (Bratislava)</b></p></div>			
+			<div class="social">
+				<div class="fb-like" data-href="https://www.facebook.com/partialjs" data-colorscheme="light" data-layout="button_count" data-action="recommend" data-show-faces="true" data-send="false"></div>			</div>
+		</div>
+		<div class="fr">
+			<table width="250px" class="openinghours" cellpadding="0" cellspacing="0">
+				<colgroup>
+					<col />
+					<col style="width:120px" />
+				</colgroup>
+				<tr>
+					<td class="b">Monday</td>
+					<td class="center">11:00 - 20:00</td>
+				</tr>
+				<tr>
+					<td class="b">Tuesday</td>
+					<td class="center">11:00 - 20:00</td>
+				</tr>
+				<tr>
+					<td class="b">Wednesday</td>
+					<td class="center">11:00 - 20:00</td>
+				</tr>
+				<tr>
+					<td class="b">Thursday</td>
+					<td class="center">11:00 - 20:00</td>
+				</tr>
+				<tr>
+					<td class="b">Friday</td>
+					<td class="center">11:00 - 22:00</td>
+				</tr>
+				<tr>
+					<td class="b">Saturday</td>
+					<td class="center">16:00 - 22:00</td>
+				</tr>
+				<tr>
+					<td class="b">Sunday</td>
+					<td class="center"><em>closed</em></td>
+				</tr>
+			</table>
+		</div>
+		<div class="cl">&nbsp;</div>
+	</div>
+	<div class="content-900">
+		<div class="content-padding">
+			<div class="h2-image">@{image('sushifreshset.jpg', 100, 70, 'Sushi Fresh Set')}</div>
+			<h2 id="sushifreshset">Sushi Fresh Set</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['sushifreshset'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('nigirisushi.jpg', 100, 70, 'Nigiri sushi')}</div>
+			<h2 id="nigirisushi">Nigiri sushi</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['nigirisushi'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('makihosomaki.jpg', 100, 70, 'Maki, Hosomaki')}</div>
+			<h2 id="makihosomaki">Maki, Hosomaki</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['makihosomaki'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('temaki.jpg', 100, 70, 'Temaki')}</div>
+			<h2 id="temaki">Temaki</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['temaki'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('urimaki.jpg', 100, 70, 'Urimaki')}</div>
+			<h2 id="urimaki">Urimaki</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['urimaki'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('sashimi.jpg', 100, 70, 'Sashimi')}</div>
+			<h2 id="sashimi">Sashimi</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['sashimi'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('onigiri.jpg', 100, 70, 'Onigiri')}</div>
+			<h2 id="onigiri">Onigiri</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['onigiri'])}
+			<br />
+			<br />
+			<div class="h2-image">@{image('salads.jpg', 100, 70, 'Salads')}</div>
+			<h2 id="salads">Salads</h2>
+			<p class="description">asdsa dlja dlja sldjsald jasldj alsdj asldjk lasdj asldjk alsdjk alsdjklsadjk lasjkd lasdjlkas asdljal asdjasldjsklajlas.<p>
+			@{template('product', global.category['salads'])}
+		</div>
+		<div id="picture"><span></span><img src="/img/big.jpg" width="240" height="160" /></div>
+	</div>
+</div>
+<div id="order">
+	<div class="content">
+		<div class="content-padding npb">
+			<br />
+			<h2>Your Sushi Order</h2>
+			<div id="error"></div>
+			<div id="success">
+				<div class="b">Thank you!</div>
+				<div>On your e-mail we sent copy of this order. <b>Hotline:</b> 0903 536 060.</div>
+			</div>
+			<div class="form-info">
+				<form id="f" method="post" action="#xhr" class="mt20">
+					<input type="hidden" name="Products" id="Products" />
+					<div class="form-description">Basic informations about you</div>
+					<div class="form">
+					    <div class="required">Your name</div>
+					    <span>:</span>
+					    <div>
+					    	@{text('Name', { maxlength: 50, class: 'input' })}
+					    </div>
+					</div>
+					<div class="form">
+					    <div class="required">E-mail address</div>
+					    <span>:</span>
+					    <div>
+					    	@{text('Email', { maxlength: 120, class: 'input' })}
+					    </div>
+					</div>
+					<div class="form">
+					    <div class="required">Phone number</div>
+					    <span>:</span>
+					    <div>
+					    	@{text('Phone', { maxlength: 30, class: 'input' })}
+					    </div>
+					</div>
+					<br />
+					<div class="form">
+					    <div class="required">Locality</div>
+					    <span>:</span>
+					    <div>
+					    	<select id="Locality" name="Locality" class="input">
+					    		<option value=""></option>
+					    		<option value="Čuňovo">Čuňovo</option>
+					    		<option value="Devín">Devín</option>
+					    		<option value="Devínska Nová Ves">Devínska Nová Ves</option>
+					    		<option value="Dúbravka">Dúbravka</option>
+					    		<option value="Jarovce">Jarovce</option>
+					    		<option value="Karlova Ves">Karlova Ves</option>
+					    		<option value="Lamač">Lamač</option>
+					    		<option value="Nové Mesto">Nové Mesto</option>
+					    		<option value="Petržalka">Petržalka</option>
+					    		<option value="Podunajské Biskupice">Podunajské Biskupice</option>
+					    		<option value="Rača">Rača</option>
+					    		<option value="Rusovce">Rusovce</option>
+					    		<option value="Ružinov">Ružinov</option>
+					    		<option value="Staré mesto">Staré mesto</option>
+					    		<option value="Vajnory">Vajnory</option>
+					    		<option value="Vrakuňa">Vrakuňa</option>
+					    		<option value="Záhorská Bystrica">Záhorská Bystrica</option>
+					    	</select>
+					    </div>
+					</div>
+					<div class="form mt5">
+					    <div class="required">Street + number</div>
+					    <span>:</span>
+					    <div>
+					    	@{text('Street', { maxlength: 50, class: 'input' })}
+					    </div>
+					</div>
+					<br />
+					<div class="form-description">Additional informations</div>
+					<div class="form">
+					    <div>Note</div>
+					    <span>:</span>
+					    <div>
+					    	@{text('Note', { maxlength: 100, class: 'input' })}
+					    </div>
+					</div>
+					<br />
+					<div class="form">
+						<div>&nbsp;</div>
+						<div><button name="submit" class="button">Submit</button></div>
+					</div>
+					<div class="cl">&nbsp;</div>
+				</form>
+			</div>
+			<div class="form-data">
+				<h3>Obsah mojej Sushi objednávky</h3>
+				<br />
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" class="order" id="order-items">
+					<colgroup>
+						<col />
+						<col style="width:50px" />
+						<col style="width:100px" />
+					</colgroup>
+				</table>
+				<br />
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" class="order">
+					<colgroup>
+						<col />
+						<col style="width:50px" />
+						<col style="width:100px" />
+					</colgroup>
+					<tr>
+						<td class="white">Delivery</td>
+						<td class="right white">1x</td>
+						<td id="sum-delivery" class="white right b">0 &euro;</td>
+					</tr>
+				</table>
+				<div class="order-sum">
+					<div>Sumarize</div>
+					<div id="sum"></div>
+				</div>
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+</div>

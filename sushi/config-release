@@ -1,0 +1,7 @@
+name              : Sushi Fresh
+version           : 1.01
+secret            : your-secret-key
+author		      : Peter Širka
+
+gmail-email       : petersirka@gmail.com
+gmail-password    : *****
